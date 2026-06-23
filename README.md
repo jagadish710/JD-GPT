@@ -35,4 +35,20 @@ cd jd-gpt
 
 pip install -r requirements.txt
 
+## Folder Structure
+
+JD-GPT/
+│
+├── app.py
+├── system_prompt.txt
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── assets/
+│     ├── home_screen.png
+│     ├── query_output.png
+└── .streamlit/
+      └── secrets.toml
+
+
 streamlit run app.py
